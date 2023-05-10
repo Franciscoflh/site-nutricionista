@@ -12,7 +12,7 @@ body {
     display: none;
 }
 
-label {
+.label-aside {
     position: fixed;
     right: 5px;
     bottom: 25px;
@@ -192,6 +192,12 @@ li {
 
 .logo {
     font-size: 32px;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
 }
 
 .menu {
@@ -390,14 +396,14 @@ main #caixa {
 .slider {
     background-color: aqua;
     margin: 0 auto;
-    width: 400%;
+    width: 100%;
     height: 430px;
     overflow: hidden;
 }
 
 .slides {
     background-color: azure;
-    width: 100%;
+    width: 400%;
     height: 430px;
     display: flex;
 }
@@ -510,12 +516,6 @@ main #caixa {
 #radio3:checked~.navigation-auto .auto-btn3 {
     background-color: #FFF;
 }
-
-
-
-
-
-
 
 footer {
     width: 100%;
